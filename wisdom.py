@@ -1,7 +1,13 @@
-age = int(input("how old are you? "))
+num = int(input("Enter a number (1-10): "))
 
-while age <= 39:
-    print("Wrong! Try again.")
-    age = int(input("how old are you? "))
+while num != 9:
+    if num < 9:
+        print("Too low, try again.")
 
-print("Correct! You are wise.")
+
+    else:
+        print("Too high, try again.")
+    num = int(input("Enter a number (1-10): "))
+
+
+print("Congratulations! You guessed the correct number.")
