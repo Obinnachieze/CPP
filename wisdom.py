@@ -1,8 +1,7 @@
-age = input("What is the secret to wisdom? ")
+age = int(input("how old are you? "))
 
-while age != "experience":
-
+while age <= 39:
     print("Wrong! Try again.")
-    age = input("What is the secret to wisdom? ")
+    age = int(input("how old are you? "))
 
-print("Correct! The secret to wisdom is experience.")
+print("Correct! You are wise.")
